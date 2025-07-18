@@ -1,0 +1,18 @@
+// 1. Impor Google Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+// 2. Impor file-file utama dari package Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@import 'swiper/swiper-bundle.css';
+
+// ===== TAMBAHKAN KODE INI =====
+html {
+    scroll-behavior: smooth;
+}
+// ===============================
+
+// 3. Terapkan font ke seluruh halaman
+body {
+    font-family: 'Poppins', sans-serif;
+}
